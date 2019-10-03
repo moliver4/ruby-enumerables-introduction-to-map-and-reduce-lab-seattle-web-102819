@@ -45,7 +45,7 @@ def reduce_to_total
     sum+=source_array[counter]
     counter+=1
   end
-  new_array
+  sum
 end
 
 def reduce_to_all_true
