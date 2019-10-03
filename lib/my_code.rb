@@ -28,7 +28,7 @@ def map_to_double(source_array)
   new_array
 end
 
-def map_to_square
+def map_to_square(source_array)
   new_array = Array.new
   counter = 0
   while counter < source_array.length do
