@@ -29,9 +29,23 @@ def map_to_double(source_array)
 end
 
 def map_to_square
+  new_array = Array.new
+  counter = 0
+  while counter < source_array.length do
+    new_array << source_array[counter]** 2
+    counter+=1
+  end
+  new_array
 end
 
 def reduce_to_total
+  sum=0
+  counter = 0
+  while counter < source_array.length do
+    sum+=source_array[counter]
+    counter+=1
+  end
+  new_array
 end
 
 def reduce_to_all_true
