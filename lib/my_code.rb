@@ -17,6 +17,12 @@ def map_to_no_change
 end
 
 def map_to_double
+  new_array = Array.new
+  counter = 0
+  while counter<source_array.length do
+    new_array[counter] = source_array[counter] 
+    counter++
+  end
 end
 
 def map_to_square
