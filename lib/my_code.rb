@@ -7,7 +7,7 @@ def map_to_negativize(source_array)
   end
 end
 
-def map_to_no_change
+def map_to_no_change(source_array)
   new_array = Array.new
   counter = 0
   while counter<source_array.length do
@@ -16,7 +16,7 @@ def map_to_no_change
   end
 end
 
-def map_to_double
+def map_to_double(source_array)
   new_array = Array.new
   counter = 0
   while counter<source_array.length do
