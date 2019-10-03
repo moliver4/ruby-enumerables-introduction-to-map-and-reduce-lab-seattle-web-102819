@@ -4,6 +4,6 @@ def map_to_negativize(source_array)
   while counter < source_array.length do
     new_array << source_array[counter]* -1
     counter++
-  end
+    end
   new_array
 end
