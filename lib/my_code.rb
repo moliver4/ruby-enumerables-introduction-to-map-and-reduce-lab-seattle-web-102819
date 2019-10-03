@@ -20,7 +20,7 @@ def map_to_double(source_array)
   new_array = Array.new
   counter = 0
   while counter<source_array.length do
-    new_array[counter] = source_array[counter] 
+    new_array[counter] = source_array[counter]
     counter++
   end
 end
