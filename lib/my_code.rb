@@ -38,7 +38,7 @@ def map_to_square(source_array)
   new_array
 end
 
-def reduce_to_total
+def reduce_to_total(source_array)
   sum=0
   counter = 0
   while counter < source_array.length do
@@ -48,7 +48,7 @@ def reduce_to_total
   sum
 end
 
-def reduce_to_all_true
+def reduce_to_all_true(source_array)
   counter = 0
   while counter < source_array.length do
     if !source_array[counter]
